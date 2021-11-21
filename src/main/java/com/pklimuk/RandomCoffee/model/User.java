@@ -13,7 +13,7 @@ import javax.validation.constraints.NotEmpty;
 
 import static javax.persistence.GenerationType.AUTO;
 
-@Entity
+@Entity(name = "users")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
