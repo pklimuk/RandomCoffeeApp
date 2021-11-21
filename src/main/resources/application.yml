@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    password: 2b8dfab3c07644cdc59b0466d45cb839600412fde7582c5783983105cf3ac35d
+    url: jdbc:postgresql://ec2-54-72-136-69.eu-west-1.compute.amazonaws.com:5432/di9p3jpqit7il
+    username: ejvgtmipexgtoz
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: true
